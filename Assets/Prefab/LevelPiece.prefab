@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &962410035530696541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962410035530696543}
+  - component: {fileID: 962410035530696540}
+  m_Layer: 0
+  m_Name: LevelPiece
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962410035530696543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962410035530696541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &962410035530696540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962410035530696541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834522b4de3d3d44db9c595be8008d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: 5
+  maxX: 10
+  minDots: 5
+  maxDots: 10
+  absoluteMin: 6
+  absoluteMax: 12
+  minY: 0
+  maxY: 5
+  currentXOffset: 0
+  point: {fileID: 6587297419452002620, guid: a7026074a844cde44b5673a11d8dc931, type: 3}
+  wall: {fileID: 3226036580025130158, guid: aa00ed694164f674d8af991c713f7728, type: 3}
+  glow: {fileID: 7098805945130366339, guid: 92433d4053461164da807a88aa18648d, type: 3}
+  glowCoin: {fileID: 0}
